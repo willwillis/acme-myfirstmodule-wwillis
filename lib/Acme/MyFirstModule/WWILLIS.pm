@@ -12,7 +12,6 @@ Acme::MyFirstModule::WWILLIS - The great new Acme::MyFirstModule::WWILLIS!
 Version 0.01
 
 =cut
-asdfasdfadsf
 our $VERSION = '0.01';
 
 =head1 SYNOPSIS
