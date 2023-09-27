@@ -1,19 +1,8 @@
 name: Main workflow
 on:
-  pull_request:
-    paths:
-      - "__test__/**"
-      - "src/**"
-      - "package.json"
-      - "package-lock.json"
-      - "action.yml"
-      - ".prettierrc.json"
-      - "tsconfig.json"
-      - "scripts/lib/Actions/**"
   push:
     branches:
       - "main"
-  workflow_dispatch:
 jobs:
   perl:
     runs-on: ${{ matrix.os }}
