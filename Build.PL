@@ -10,6 +10,11 @@ my $builder = Module::Build->new(
     build_requires => {
         'Test::More' => 0,
     },
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/willwillis/acme-myfirstmodule-wwillis'
+        }
+    },
     add_to_cleanup      => [ 'Acme-MyFirstModule-WWILLIS-*' ],
 );
 
